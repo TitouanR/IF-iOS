@@ -90,6 +90,7 @@
 		5B2D16B318176531002C3300 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASINetworkQueue.h"; sourceTree = "<group>"; };
 		5B2D16B418176531002C3300 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASINetworkQueue.m"; sourceTree = "<group>"; };
 		5B2D16B518176531002C3300 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIProgressDelegate.h"; sourceTree = "<group>"; };
+		5B2D16BF18176BD2002C3300 /* IFWSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFWSConfig.h; path = Classes/Config/IFWSConfig.h; sourceTree = "<group>"; };
 		A23792581D54472D837B5CFD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B2394886044B81BFA577A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +183,7 @@
 				5B26C92D181763A7000ED90F /* InfoPlist.strings */,
 				5B26C930181763A7000ED90F /* main.m */,
 				5B26C932181763A7000ED90F /* Imaginarium Festival-Prefix.pch */,
+				5B2D16BF18176BD2002C3300 /* IFWSConfig.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
