@@ -22,6 +22,19 @@
 		5B26C944181763A7000ED90F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B26C928181763A7000ED90F /* CoreData.framework */; };
 		5B26C94C181763A7000ED90F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B26C94A181763A7000ED90F /* InfoPlist.strings */; };
 		5B26C94E181763A7000ED90F /* Imaginarium_FestivalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B26C94D181763A7000ED90F /* Imaginarium_FestivalTests.m */; };
+		5B2D1681181764B0002C3300 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D167D181764B0002C3300 /* CFNetwork.framework */; };
+		5B2D1682181764B0002C3300 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D167E181764B0002C3300 /* libz.dylib */; };
+		5B2D1683181764B0002C3300 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D167F181764B0002C3300 /* MobileCoreServices.framework */; };
+		5B2D1684181764B0002C3300 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2D1680181764B0002C3300 /* SystemConfiguration.framework */; };
+		5B2D16B618176531002C3300 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16A318176531002C3300 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16B718176531002C3300 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16A618176531002C3300 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16B818176531002C3300 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16A818176531002C3300 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16B918176531002C3300 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16AA18176531002C3300 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16BA18176531002C3300 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16AC18176531002C3300 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16BB18176531002C3300 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16AE18176531002C3300 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16BC18176531002C3300 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16B218176531002C3300 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16BD18176531002C3300 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16B418176531002C3300 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8D2338407C9748E9A86E5049 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A23792581D54472D837B5CFD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,32 @@
 		5B26C949181763A7000ED90F /* Imaginarium FestivalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Imaginarium FestivalTests-Info.plist"; sourceTree = "<group>"; };
 		5B26C94B181763A7000ED90F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B26C94D181763A7000ED90F /* Imaginarium_FestivalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Imaginarium_FestivalTests.m; sourceTree = "<group>"; };
+		5B2D167D181764B0002C3300 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5B2D167E181764B0002C3300 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5B2D167F181764B0002C3300 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5B2D1680181764B0002C3300 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5B2D16A218176531002C3300 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIAuthenticationDialog.h"; sourceTree = "<group>"; };
+		5B2D16A318176531002C3300 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIAuthenticationDialog.m"; sourceTree = "<group>"; };
+		5B2D16A418176531002C3300 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASICacheDelegate.h"; sourceTree = "<group>"; };
+		5B2D16A518176531002C3300 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIDataCompressor.h"; sourceTree = "<group>"; };
+		5B2D16A618176531002C3300 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIDataCompressor.m"; sourceTree = "<group>"; };
+		5B2D16A718176531002C3300 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIDataDecompressor.h"; sourceTree = "<group>"; };
+		5B2D16A818176531002C3300 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIDataDecompressor.m"; sourceTree = "<group>"; };
+		5B2D16A918176531002C3300 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIDownloadCache.h"; sourceTree = "<group>"; };
+		5B2D16AA18176531002C3300 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIDownloadCache.m"; sourceTree = "<group>"; };
+		5B2D16AB18176531002C3300 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIFormDataRequest.h"; sourceTree = "<group>"; };
+		5B2D16AC18176531002C3300 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIFormDataRequest.m"; sourceTree = "<group>"; };
+		5B2D16AD18176531002C3300 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIHTTPRequest.h"; sourceTree = "<group>"; };
+		5B2D16AE18176531002C3300 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIHTTPRequest.m"; sourceTree = "<group>"; };
+		5B2D16AF18176531002C3300 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIHTTPRequestConfig.h"; sourceTree = "<group>"; };
+		5B2D16B018176531002C3300 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIHTTPRequestDelegate.h"; sourceTree = "<group>"; };
+		5B2D16B118176531002C3300 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIInputStream.h"; sourceTree = "<group>"; };
+		5B2D16B218176531002C3300 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIInputStream.m"; sourceTree = "<group>"; };
+		5B2D16B318176531002C3300 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASINetworkQueue.h"; sourceTree = "<group>"; };
+		5B2D16B418176531002C3300 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASINetworkQueue.m"; sourceTree = "<group>"; };
+		5B2D16B518176531002C3300 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIProgressDelegate.h"; sourceTree = "<group>"; };
+		A23792581D54472D837B5CFD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B2394886044B81BFA577A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +99,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2D1681181764B0002C3300 /* CFNetwork.framework in Frameworks */,
+				5B2D1682181764B0002C3300 /* libz.dylib in Frameworks */,
+				5B2D1683181764B0002C3300 /* MobileCoreServices.framework in Frameworks */,
+				5B2D1684181764B0002C3300 /* SystemConfiguration.framework in Frameworks */,
 				5B26C925181763A7000ED90F /* CoreGraphics.framework in Frameworks */,
 				5B26C929181763A7000ED90F /* CoreData.framework in Frameworks */,
 				5B26C927181763A7000ED90F /* UIKit.framework in Frameworks */,
 				5B26C923181763A7000ED90F /* Foundation.framework in Frameworks */,
+				8D2338407C9748E9A86E5049 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +132,7 @@
 				5B26C947181763A7000ED90F /* Imaginarium FestivalTests */,
 				5B26C921181763A7000ED90F /* Frameworks */,
 				5B26C920181763A7000ED90F /* Products */,
+				F0B2394886044B81BFA577A5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +148,17 @@
 		5B26C921181763A7000ED90F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B2D1685181764B3002C3300 /* ASI-HTTP */,
+				5B2D167D181764B0002C3300 /* CFNetwork.framework */,
+				5B2D167E181764B0002C3300 /* libz.dylib */,
+				5B2D167F181764B0002C3300 /* MobileCoreServices.framework */,
+				5B2D1680181764B0002C3300 /* SystemConfiguration.framework */,
 				5B26C922181763A7000ED90F /* Foundation.framework */,
 				5B26C924181763A7000ED90F /* CoreGraphics.framework */,
 				5B26C926181763A7000ED90F /* UIKit.framework */,
 				5B26C928181763A7000ED90F /* CoreData.framework */,
 				5B26C940181763A7000ED90F /* XCTest.framework */,
+				A23792581D54472D837B5CFD /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +204,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5B2D1685181764B3002C3300 /* ASI-HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D16A218176531002C3300 /* ASIAuthenticationDialog.h */,
+				5B2D16A318176531002C3300 /* ASIAuthenticationDialog.m */,
+				5B2D16A418176531002C3300 /* ASICacheDelegate.h */,
+				5B2D16A518176531002C3300 /* ASIDataCompressor.h */,
+				5B2D16A618176531002C3300 /* ASIDataCompressor.m */,
+				5B2D16A718176531002C3300 /* ASIDataDecompressor.h */,
+				5B2D16A818176531002C3300 /* ASIDataDecompressor.m */,
+				5B2D16A918176531002C3300 /* ASIDownloadCache.h */,
+				5B2D16AA18176531002C3300 /* ASIDownloadCache.m */,
+				5B2D16AB18176531002C3300 /* ASIFormDataRequest.h */,
+				5B2D16AC18176531002C3300 /* ASIFormDataRequest.m */,
+				5B2D16AD18176531002C3300 /* ASIHTTPRequest.h */,
+				5B2D16AE18176531002C3300 /* ASIHTTPRequest.m */,
+				5B2D16AF18176531002C3300 /* ASIHTTPRequestConfig.h */,
+				5B2D16B018176531002C3300 /* ASIHTTPRequestDelegate.h */,
+				5B2D16B118176531002C3300 /* ASIInputStream.h */,
+				5B2D16B218176531002C3300 /* ASIInputStream.m */,
+				5B2D16B318176531002C3300 /* ASINetworkQueue.h */,
+				5B2D16B418176531002C3300 /* ASINetworkQueue.m */,
+				5B2D16B518176531002C3300 /* ASIProgressDelegate.h */,
+			);
+			name = "ASI-HTTP";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B26C951181763A7000ED90F /* Build configuration list for PBXNativeTarget "Imaginarium Festival" */;
 			buildPhases = (
+				E99B79AD37A2400682858C8C /* Check Pods Manifest.lock */,
 				5B26C91B181763A7000ED90F /* Sources */,
 				5B26C91C181763A7000ED90F /* Frameworks */,
 				5B26C91D181763A7000ED90F /* Resources */,
+				6549E2667FEC4CD5A24CABDF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +324,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6549E2667FEC4CD5A24CABDF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99B79AD37A2400682858C8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B26C91B181763A7000ED90F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2D16B718176531002C3300 /* ASIDataCompressor.m in Sources */,
 				5B26C938181763A7000ED90F /* Imaginarium_Festival.xcdatamodeld in Sources */,
+				5B2D16BB18176531002C3300 /* ASIHTTPRequest.m in Sources */,
+				5B2D16B618176531002C3300 /* ASIAuthenticationDialog.m in Sources */,
+				5B2D16BA18176531002C3300 /* ASIFormDataRequest.m in Sources */,
 				5B26C931181763A7000ED90F /* main.m in Sources */,
+				5B2D16BC18176531002C3300 /* ASIInputStream.m in Sources */,
 				5B26C935181763A7000ED90F /* IFAppDelegate.m in Sources */,
+				5B2D16BD18176531002C3300 /* ASINetworkQueue.m in Sources */,
+				5B2D16B818176531002C3300 /* ASIDataDecompressor.m in Sources */,
+				5B2D16B918176531002C3300 /* ASIDownloadCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +488,7 @@
 		};
 		5B26C952181763A7000ED90F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B2394886044B81BFA577A5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -380,6 +502,7 @@
 		};
 		5B26C953181763A7000ED90F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B2394886044B81BFA577A5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -452,6 +575,7 @@
 				5B26C953181763A7000ED90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B26C954181763A7000ED90F /* Build configuration list for PBXNativeTarget "Imaginarium FestivalTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +584,7 @@
 				5B26C956181763A7000ED90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
