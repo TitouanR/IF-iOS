@@ -34,6 +34,10 @@
 		5B2D16BB18176531002C3300 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16AE18176531002C3300 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5B2D16BC18176531002C3300 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16B218176531002C3300 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5B2D16BD18176531002C3300 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16B418176531002C3300 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B2D16C118176DCD002C3300 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D16C018176DCD002C3300 /* main.storyboard */; };
+		5B2D16C518176FD1002C3300 /* IFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D16C418176FD1002C3300 /* IFHomeViewController.m */; };
+		5BB3C56B1819E31C002DECFB /* IFApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3C56A1819E31C002DECFB /* IFApi.m */; };
+		5BB3C56F1819E459002DECFB /* IFArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3C56E1819E459002DECFB /* IFArtist.m */; };
 		8D2338407C9748E9A86E5049 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A23792581D54472D837B5CFD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +95,13 @@
 		5B2D16B418176531002C3300 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASINetworkQueue.m"; sourceTree = "<group>"; };
 		5B2D16B518176531002C3300 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = "Imaginarium Festival/Classes/Framework/ASI-HTTP/ASIProgressDelegate.h"; sourceTree = "<group>"; };
 		5B2D16BF18176BD2002C3300 /* IFWSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFWSConfig.h; path = Classes/Config/IFWSConfig.h; sourceTree = "<group>"; };
+		5B2D16C018176DCD002C3300 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		5B2D16C318176FD1002C3300 /* IFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFHomeViewController.h; path = Classes/UI/IFHomeViewController.h; sourceTree = "<group>"; };
+		5B2D16C418176FD1002C3300 /* IFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IFHomeViewController.m; path = Classes/UI/IFHomeViewController.m; sourceTree = "<group>"; };
+		5BB3C5691819E31C002DECFB /* IFApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFApi.h; path = Classes/WS/IFApi.h; sourceTree = "<group>"; };
+		5BB3C56A1819E31C002DECFB /* IFApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IFApi.m; path = Classes/WS/IFApi.m; sourceTree = "<group>"; };
+		5BB3C56D1819E459002DECFB /* IFArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFArtist.h; path = Classes/IFArtist.h; sourceTree = "<group>"; };
+		5BB3C56E1819E459002DECFB /* IFArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IFArtist.m; path = Classes/IFArtist.m; sourceTree = "<group>"; };
 		A23792581D54472D837B5CFD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B2394886044B81BFA577A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +178,9 @@
 		5B26C92A181763A7000ED90F /* Imaginarium Festival */ = {
 			isa = PBXGroup;
 			children = (
+				5BB3C56C1819E44A002DECFB /* Model */,
+				5B60170818184A9200C75433 /* WS */,
+				5B2D16C218176FAF002C3300 /* UI */,
 				5B26C933181763A7000ED90F /* IFAppDelegate.h */,
 				5B26C934181763A7000ED90F /* IFAppDelegate.m */,
 				5B26C939181763A7000ED90F /* Images.xcassets */,
@@ -184,6 +198,7 @@
 				5B26C930181763A7000ED90F /* main.m */,
 				5B26C932181763A7000ED90F /* Imaginarium Festival-Prefix.pch */,
 				5B2D16BF18176BD2002C3300 /* IFWSConfig.h */,
+				5B2D16C018176DCD002C3300 /* main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -231,6 +246,33 @@
 				5B2D16B518176531002C3300 /* ASIProgressDelegate.h */,
 			);
 			name = "ASI-HTTP";
+			sourceTree = "<group>";
+		};
+		5B2D16C218176FAF002C3300 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D16C318176FD1002C3300 /* IFHomeViewController.h */,
+				5B2D16C418176FD1002C3300 /* IFHomeViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		5B60170818184A9200C75433 /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3C5691819E31C002DECFB /* IFApi.h */,
+				5BB3C56A1819E31C002DECFB /* IFApi.m */,
+			);
+			name = WS;
+			sourceTree = "<group>";
+		};
+		5BB3C56C1819E44A002DECFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3C56D1819E459002DECFB /* IFArtist.h */,
+				5BB3C56E1819E459002DECFB /* IFArtist.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +355,7 @@
 			files = (
 				5B26C92F181763A7000ED90F /* InfoPlist.strings in Resources */,
 				5B26C93A181763A7000ED90F /* Images.xcassets in Resources */,
+				5B2D16C118176DCD002C3300 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2D16B718176531002C3300 /* ASIDataCompressor.m in Sources */,
+				5BB3C56F1819E459002DECFB /* IFArtist.m in Sources */,
 				5B26C938181763A7000ED90F /* Imaginarium_Festival.xcdatamodeld in Sources */,
 				5B2D16BB18176531002C3300 /* ASIHTTPRequest.m in Sources */,
 				5B2D16B618176531002C3300 /* ASIAuthenticationDialog.m in Sources */,
@@ -372,7 +416,9 @@
 				5B26C931181763A7000ED90F /* main.m in Sources */,
 				5B2D16BC18176531002C3300 /* ASIInputStream.m in Sources */,
 				5B26C935181763A7000ED90F /* IFAppDelegate.m in Sources */,
+				5B2D16C518176FD1002C3300 /* IFHomeViewController.m in Sources */,
 				5B2D16BD18176531002C3300 /* ASINetworkQueue.m in Sources */,
+				5BB3C56B1819E31C002DECFB /* IFApi.m in Sources */,
 				5B2D16B818176531002C3300 /* ASIDataDecompressor.m in Sources */,
 				5B2D16B918176531002C3300 /* ASIDownloadCache.m in Sources */,
 			);
